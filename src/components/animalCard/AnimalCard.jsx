@@ -11,9 +11,9 @@ const AnimlaCard = ({ animalName, animalSpecie, animlaDiet, animlaBild, animalLi
         <p>{animlaDiet}</p>
         <p>{animalHabitat}</p>
         <h6>I be likely to live {animalLifeSpan} years</h6>
-        {animalFacts.map((animlaFact =>
+        <div className="funFacts">{animalFacts.map((animlaFact =>
             <li>{animlaFact}</li>
-        ))}
+        ))}</div>
 
 
 
